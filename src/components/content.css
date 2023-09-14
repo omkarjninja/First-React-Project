@@ -1,0 +1,26 @@
+.container{
+    width: 250px;
+    background-color: #310553;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:  0 0 10px 1px #b400ff, 0 0 0px 1px white;
+    transition: box-shadow ease-in-out 1s;
+}
+.container:hover{
+    box-shadow:  0 0 100px 1px #b400ff, 0 0 0px 1px white;
+}
+.container img{
+    width: 100px;
+    align-items: center;
+}
+.app-container{
+    display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+.king{
+    background-color: #170F1E;
+    padding-bottom: 50px;
+}
